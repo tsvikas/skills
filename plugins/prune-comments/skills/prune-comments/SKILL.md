@@ -19,17 +19,13 @@ The enemy is worthless comments, not comments: a missing why costs more than a w
 
 ## Scope
 
-Resolve the scope the user gives before editing anything:
-
-- "uncommitted changes": staged plus unstaged.
-- "the last commit": `git show HEAD`.
-- "since the last cleanup": diff since the newest commit whose message mentions "comment cleanup" (`git log --grep`). If none exists, ask.
-- "since main" / "since <branch>": diff against the merge base with that branch.
-- A file, a directory, or the whole repo: every source file in it, skipping generated and vendored code.
+Resolve the scope the user gives before editing anything.
+It is a diff (maybe from a commit or a branch) or a set of files.
+For "since the last cleanup", use the diff against the newest commit whose message mentions "comment cleanup".
 
 If no scope is given, use the uncommitted changes when they exist, otherwise the diff against the default branch. If that is empty too, ask.
 In diff scopes, judge only comments and docstrings the diff adds or touches.
-In file scopes, judge all of them.
+In file scopes, judge every source file in it, except generated or vendored code.
 Judgment stays within the scope, destinations need not: a fact may move to its correct home outside it.
 
 ## The end state
