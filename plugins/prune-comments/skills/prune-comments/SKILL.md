@@ -1,6 +1,7 @@
 ---
 name: prune-comments
-description: 'Trim comment and docstring bloat over any scope: a diff (against a branch, the last commit, uncommitted changes, since the last cleanup) or whole files and directories. Deletes restatements and edit narration, re-homes facts between comments and docstrings, and rewrites comments that lean on chat or design-doc context. Documentation-only, never changes logic. Use when the user asks to clean up, trim, or review comments or docstrings, or complains about too many comments.'
+description: 'Trim comment and docstring bloat over any scope: a diff or whole files and directories.'
+when_to_use: 'Use when the user asks to clean up, trim, tidy, or review comments or docstrings, or complains they are too many, redundant, obvious, AI-generated, or stale.'
 argument-hint: [scope]
 effort: xhigh
 ---
