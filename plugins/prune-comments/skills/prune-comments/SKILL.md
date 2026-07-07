@@ -142,6 +142,7 @@ Then report in exactly this shape:
 - <path:line>: <one sentence>
 
 ---
+
 {* if relevant: *} Would you like to apply any of the flags?
 {* if relevant: *} Would you like to commit?
 ```
