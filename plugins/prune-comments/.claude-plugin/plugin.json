@@ -1,0 +1,12 @@
+{
+  "name": "prune-comments",
+  "description": "Documentation-only pass that fights comment-slop: drops, trims, moves, and de-duplicates comments and docstrings, leaving only the ones that earn their place. Never changes code.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Tsvika Shapira"
+  },
+  "homepage": "https://github.com/tsvikas/skills/tree/main/plugins/prune-comments",
+  "repository": "https://github.com/tsvikas/skills",
+  "license": "MIT",
+  "keywords": ["comments", "docstrings", "cleanup", "documentation"]
+}
