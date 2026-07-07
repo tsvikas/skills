@@ -63,4 +63,4 @@ It records what the sweep concluded, not the skill's current wording, so it need
 
 - Fluri et al. 2009 co-evolution numbers (paywalled, unverified: method comments co-evolve with code in ~7% of relevant changes).
 - "Comment Traps" (arXiv 2512.20334) on AI commented-out code, unread, fetch failed.
-- The skill ecosystem has no excellent published comment-cleanup skill. Ours appears to be ahead of anything public.
+- No comparable comment-cleanup skill was found published in the agent-skill ecosystem during the sweep.

@@ -23,7 +23,7 @@ A documentation-only pass that trims comment and docstring bloat.
 It deletes restatements and edit narration, re-homes facts between comments and docstrings, and rewrites comments that lean on chat or design-doc context.
 It never changes logic.
 
-It exists because the skill ecosystem had no strong published comment-cleanup skill.
+It exists to fill a gap: strong, opinionated comment-cleanup skills are scarce.
 Most cleanup tools either delete comments indiscriminately or leave the judgment entirely to an unguided model.
 This one encodes a specific philosophy: keep the load-bearing comments (a why, an invariant, a workaround), cut the rest, and put every surviving fact in its correct home.
 
