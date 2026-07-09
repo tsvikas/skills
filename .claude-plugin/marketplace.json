@@ -13,6 +13,16 @@
       "keywords": ["comments", "docstrings", "cleanup", "documentation", "refactoring"],
       "license": "MIT",
       "homepage": "https://github.com/tsvikas/skills"
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      },
+      "description": "Matt Pocock's everyday engineering and productivity skills (tdd, code-review, triage, research, and more). Vendored via his upstream plugin repo, which ships no marketplace of its own.",
+      "category": "third-party",
+      "homepage": "https://github.com/mattpocock/skills"
     }
   ]
 }
